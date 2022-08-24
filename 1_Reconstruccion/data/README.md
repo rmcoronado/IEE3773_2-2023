@@ -1,6 +1,7 @@
 # Experiencia 1: Reconstrucción de Imágenes
 ## Trabajando con datos ```raw```
 ### Formato de los datos
+[a link](https://github.com/user/repo/blob/branch/other_file.md)
 El ```raw data``` es la información que el resonador mide directamente desde las bobinas y está formado por todas las adquisiciones que realizó el scanner para la formación de una imagen específica. Para una adquisición cartesiana, los factores que influyen en las dimensiones del ```raw data``` son el número de codificaciones de fase, la frecuencia de muestreo, el número de slices y el número de NSAs, entre otros.
 
 Cada ```raw data``` está compuesto por 2 archivos con extensiones ```.list``` y ```.data```. El primero contiene un encabezado con datos sobre la adquisición (factor de sobremuestreo, número de ecos, número de slices, número de bobinas/canales, etc) e información para el formateo de los datos (mediciones) contenidas en el segundo archivo (un ejemplo de parte del contenido de un archivo ```.list``` se muestra en el link de abajo).
