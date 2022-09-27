@@ -49,7 +49,7 @@ En caso de que no exista alguna de los campos solicitados a la función (```'MAG
   ``` 
   En el script anterior la variable ```width``` representa el ancho del filtro (```width = 0.6``` significa que el filtro, en el espacio K, valdrá 1 en un ancho igual al 60% del tamaño de la imagen), mientras que ```lift``` es la cantidad de señal que permanecerá en el borde (con ```lift = 20``` la señal decaerá a un 20% de su valor en el borde).  Un ejemplo del filtro obtenido con el script anterior se presenta en la siguiente imagen.
 
-  <img src="https://github.com/hmella/IEE3773_2-2021/blob/master/images/exp_2c.png?raw=true" width="400" height="400">
+  <img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/3_%20Mapas%20T1%20y%20T2/exp_2c.png?raw=true" width="400" height="400">
 
 * En caso de que no pueda realizar las reconstrucciones a partir de los ```raw data```, puede utilizar las imágenes contenidas en la carpeta ```data/DICOM```. Sin embargo esta opción recibirá una penalización de 0.5 décimas en la nota final.
 * Los modelos a utilizar para el ajuste de los datos son:
