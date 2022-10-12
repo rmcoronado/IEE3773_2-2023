@@ -71,7 +71,7 @@ Las imágenes de fase ```P``` obtenidas a partir de la imagen compleja para los 
   ``` 
   En el script anterior la variable ```width``` representa el ancho del filtro (```width = 0.6``` significa que el filtro, en el espacio K, valdrá 1 en un ancho igual al 60% del tamaño de la imagen), mientras que ```lift``` es la cantidad de señal que permanecerá en el borde (con ```lift = 20``` la señal decaerá a un 20% de su valor en el borde).  Un ejemplo del filtro obtenido con el script anterior se presenta en la siguiente imagen.
 
-  <img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image3.png" width="400" height="400">
+  <img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/imagen3.png" width="400" height="400">
 
 * En caso de que no pueda realizar las reconstrucciones a partir de los ```raw data```, puede utilizar las imágenes contenidas en la carpeta ```data/DICOM```. Sin embargo esta opción recibirá una penalización de 0.5 décimas en la nota final.
 * En caso de que necesite corregir los artefactos de wrapping en las imágenes de fase, en la carpeta ```src/``` se encuentran algunas funciones para hacerlo. Un ejemplo de cómo aplicarlas a las imágenes es el siguiente:
