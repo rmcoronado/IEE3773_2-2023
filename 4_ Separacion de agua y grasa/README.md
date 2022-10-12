@@ -20,7 +20,7 @@ En su interior, cada carpeta contiene dos carpetas adicionales con la imagen en 
 
 ## Trabajando con los datos
 ### Formato y lectura de los datos
-Cada imagen fue adquirida usando una adquisición *Multi-Echo* (ME). Para leer y trabajar con el ```raw data``` puede utilizar la información entregada en la [primera experiencia](https://github.com/hmella/IEE3773_2-2021/blob/master/Experiencia%201:%20Reconstruccion/README.md). Adicionalmente, en las carpetas ```*/DICOM/``` se encuentran las recontrucciones hechas por el resonador de cada uno de los ```raw``` data, las que puede utilizar para sus estimaciones de fracción de agua y grasa.
+Cada imagen fue adquirida usando una adquisición *Multi-Echo* (ME). Para leer y trabajar con el ```raw data``` puede utilizar la información entregada en la [primera experiencia]|. Adicionalmente, en las carpetas ```*/DICOM/``` se encuentran las recontrucciones hechas por el resonador de cada uno de los ```raw``` data, las que puede utilizar para sus estimaciones de fracción de agua y grasa.
 
 Una descripción de cada imagen contenida en ```data/```, que incluye todos los parámetros necesarios para la estimación de la fracción de agua y grasa se muestra a continuación:
 | Adquisición | <img src="https://latex.codecogs.com/gif.latex?(TE,\Delta&space;TE)" title="(TE,\Delta TE)" /> (msec) |
