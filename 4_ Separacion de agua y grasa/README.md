@@ -2,7 +2,7 @@
 
 ## Imágenes disponibles
 Para esta experiencia se encuentra disponible un set de datos con distintas adquisiciones *Multi-Echo* que les permitirán cuantificar la fracción de agua y grasa en el hígado. Los datos fueron adquiridos con la misma secuencia de adquisición, pero variando la opción ```flyback``` del escáner, la cual controla en cómo se mide cada línea del espacio k (ver imagen de abajo). Lo anterior se debe a que se ha demostrado que la cuantificación de agua y grasa es muy sensible a cambios en la lectura del espacio k.
-<img src="https://github.com/hmella/IEE3773_2-2021/blob/master/images/flyback.png?raw=true" width="550" height="225">
+<img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image.png" width="550" height="225">
 
 La estructura de los datos es la siguiente:
 ```bash
