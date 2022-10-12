@@ -54,7 +54,7 @@ P = angle(I);
 ```
 Las imágenes de fase ```P``` obtenidas a partir de la imagen compleja para los dos tiempos de eco se muestran en la figura de abajo.
 
-![](https://github.com/hmella/IEE3773_2-2021/blob/master/images/exp_3a.png?raw=true)
+![](https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image2.png)
 
 ## Algunos tips e informaciones para el desarrollo de la experiencia
 * Para esta experiencia no existe una adquisición con la bobina de cuerpo completo, por lo que para la estimación de las sensibilidades de las bobinas deberá usar la reconstrucción de suma de cuadrados.
@@ -71,7 +71,7 @@ Las imágenes de fase ```P``` obtenidas a partir de la imagen compleja para los 
   ``` 
   En el script anterior la variable ```width``` representa el ancho del filtro (```width = 0.6``` significa que el filtro, en el espacio K, valdrá 1 en un ancho igual al 60% del tamaño de la imagen), mientras que ```lift``` es la cantidad de señal que permanecerá en el borde (con ```lift = 20``` la señal decaerá a un 20% de su valor en el borde).  Un ejemplo del filtro obtenido con el script anterior se presenta en la siguiente imagen.
 
-  <img src="https://github.com/hmella/IEE3773_2-2021/blob/master/images/exp_2c.png?raw=true" width="400" height="400">
+  <img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image3.png" width="400" height="400">
 
 * En caso de que no pueda realizar las reconstrucciones a partir de los ```raw data```, puede utilizar las imágenes contenidas en la carpeta ```data/DICOM```. Sin embargo esta opción recibirá una penalización de 0.5 décimas en la nota final.
 * En caso de que necesite corregir los artefactos de wrapping en las imágenes de fase, en la carpeta ```src/``` se encuentran algunas funciones para hacerlo. Un ejemplo de cómo aplicarlas a las imágenes es el siguiente:
@@ -83,7 +83,7 @@ P(:,:,2) = unwrap2(P(:,:,2),'Mask',true(size(P(:,:,1))),'PixelSize',[1 1],...
                    'Seed','auto');
 ```
 Los resultados obtenidos se muestran en la siguiente imagen:
-<img src="https://github.com/hmella/IEE3773_2-2021/blob/master/images/exp_3b.png?raw=true" width="991" height="439">
+<img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image4.png" width="991" height="439">
 
 * En la carpeta ```src/``` se incluyó la función ```opt_gradient.m```, la que le permitirá combinar las bobinas usando SENSE y los métodos de gradiente descendente y conjugado.
 * Para comparar la fracción de agua y grasa en el hígado, considere usar la función [imellipse](https://la.mathworks.com/help/images/ref/imellipse.html) de Matlab. El siguiente script es un ejemplo de su utilización:
