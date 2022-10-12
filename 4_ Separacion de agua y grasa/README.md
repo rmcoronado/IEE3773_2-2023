@@ -54,7 +54,7 @@ P = angle(I);
 ```
 Las imágenes de fase ```P``` obtenidas a partir de la imagen compleja para los dos tiempos de eco se muestran en la figura de abajo.
 
-![](https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image2.png)
+![](https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/imagen3.png)
 
 ## Algunos tips e informaciones para el desarrollo de la experiencia
 * Para esta experiencia no existe una adquisición con la bobina de cuerpo completo, por lo que para la estimación de las sensibilidades de las bobinas deberá usar la reconstrucción de suma de cuadrados.
