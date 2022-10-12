@@ -83,7 +83,7 @@ P(:,:,2) = unwrap2(P(:,:,2),'Mask',true(size(P(:,:,1))),'PixelSize',[1 1],...
                    'Seed','auto');
 ```
 Los resultados obtenidos se muestran en la siguiente imagen:
-<img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/image4.png" width="991" height="439">
+<img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/4_%20Separacion%20de%20agua%20y%20grasa/imagen4.png" width="991" height="439">
 
 * En la carpeta ```src/``` se incluyó la función ```opt_gradient.m```, la que le permitirá combinar las bobinas usando SENSE y los métodos de gradiente descendente y conjugado.
 * Para comparar la fracción de agua y grasa en el hígado, considere usar la función [imellipse](https://la.mathworks.com/help/images/ref/imellipse.html) de Matlab. El siguiente script es un ejemplo de su utilización:
