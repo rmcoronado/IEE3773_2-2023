@@ -10,7 +10,7 @@ metadata = ReadPhilipsDICOM('data/1/DICOM/IM_0012',{'MAGNITUDE'});
 M = metadata.MAGNITUDE;          % imagen de magnitud
 ```
 
-<img src="[https://github.com/hmella/IEE3773_2-2021/blob/master/images/Exp_5a_cardio.png?raw=true](https://github.com/rmcoronado/IEE3773_2-2022/blob/main/5_%20imagenes%20cardiacas/Exp_5a_cardio.png)" width="500" height="500">
+<img src="https://github.com/rmcoronado/IEE3773_2-2022/blob/main/5_%20imagenes%20cardiacas/Exp_5a_cardio.png" width="500" height="500">
 
 
 
